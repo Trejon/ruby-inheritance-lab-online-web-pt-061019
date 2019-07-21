@@ -1,7 +1,7 @@
 require_relative "./user.rb"
 class Student < User 
   def learn(string)
-    @knowledge.sample
+    @knowledge << string 
   end 
 
 end
